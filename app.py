@@ -91,5 +91,5 @@ def update_estudiante(no_control):
 def getAlumnos():
     return 'Aqui van los alumnos'
 
-if _name_ == '_main_':
+if __name__ == '__main__':
     app.run(debug=True)
