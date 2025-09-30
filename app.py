@@ -7,7 +7,7 @@ from dotenv import load_dotenv   # ← agregado
 load_dotenv()
 
 #crear instancia
-app =  Flask(_name_)
+app =  Flask(__name__)
 
 # Configuración de la base de datos PostgreSQL (imagen)
 app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv('DATABASE_URL')
